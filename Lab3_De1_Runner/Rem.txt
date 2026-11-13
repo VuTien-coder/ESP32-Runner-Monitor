@@ -1,0 +1,43 @@
+# ESP32 Runner Monitor
+
+## 1. Introduction
+ESP32 Runner Monitor is an IoT monitoring system designed to monitor environmental conditions and detect human movement.
+
+## 2. Hardware
+- ESP32
+- BMP180 Barometric Pressure and Temperature Sensor
+- PIR Motion Sensor
+- LED
+- Buzzer
+
+## 3. Features
+- Temperature monitoring
+- Atmospheric pressure monitoring
+- Altitude estimation
+- PIR motion detection
+- Automatic warning system
+- Manual LED and buzzer control
+- Real-time MQTT communication
+- Web-based monitoring dashboard
+
+## 4. Communication
+- MQTT Broker: broker.hivemq.com
+- ESP32 MQTT Port: 1883
+- WebSocket Port: 8884
+- Telemetry Topic: lab3/runner/telemetry
+- Control Topic: lab3/runner/control
+
+## 5. Project Structure
+- ESP32/: Firmware source code
+- Web/: Web monitoring dashboard
+- Images/: Project images
+
+## 6. Development
+- Arduino IDE
+- FreeRTOS
+- MQTT
+- HTML, CSS, JavaScript
+- Chart.js
+
+## 7. Author
+Your Name
